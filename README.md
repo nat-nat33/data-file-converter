@@ -1,12 +1,12 @@
 # Data File Converter
-Converts a csv file to json and xml.
+Converts a csv file to json and xml file formats.
 
 ### 11/15/17
 
 ### Natalie Ramirez
 
 ## Project Description
-The purpose of this project was to read in a `csv` file that contained bootcamp graduate data and convert the data in that file into `json` and `xml` formats.
+The purpose of this project was to read a `csv` formatted file that contained bootcamp graduate data and create file conversions to `json` and `xml` formats.
 
 ### Tools Used
 - python
@@ -41,8 +41,12 @@ The purpose of this project was to read in a `csv` file that contained bootcamp 
 #### Creating scripts:
 - The only two libraries I needed for this project were the python csv library and json library.
 - The difficulty in generating the scripts came with formatting the output. Using built in methods and trial and error, I was able to create the format I wanted.
+- For the `json` formatted file, it's actually an array of json objects. The script I created generated a json object for each school reported on.
+- For the `xml` formatted file, each row represents each school.
 
 ### Conclusion
+After reviewing and analyzing the data generated, I came to the conclusion that the best format for accessing and storing this particular data would be in json format. In this format we can create nested objects for the categories and gropus of data within each school record.
+
 
 
 

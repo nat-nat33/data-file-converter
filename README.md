@@ -5,8 +5,6 @@ Converts a csv file to json and xml file formats.
 
 ### Natalie Ramirez
 
-[Presentation](https://docs.google.com/presentation/d/1XCely5RwyCSNh6rKvAtTezmLcJi_U9I4mbKXeAH1syg/edit#slide=id.g2870a817d3_0_1)
-
 ## Project Description
 The purpose of this project was to read a `csv` formatted file that contained bootcamp graduate data and create file conversions to `json` and `xml` formats.
 

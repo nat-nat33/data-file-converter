@@ -10,7 +10,7 @@ The purpose of this project was to read a `csv` formatted file that contained bo
 
 ### Tools Used
 - python
-- python libs csv, json
+- python libs csv, json, xml
 - vs code
 
 ### Data Details
